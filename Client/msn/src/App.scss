@@ -1,0 +1,104 @@
+$green:#42b72a;
+$paragraph-margin-bottom:0;
+$secondary:#474fb7 ;
+$dark:#22224d;
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  min-height: 100vh;
+
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 25%,
+    rgba(73, 73, 180, 1) 58%,
+    rgba(0, 212, 255, 0.9212418243664653) 100%
+  );
+}
+
+.customeBg {
+  background: #32325e99;
+  border-radius: 0.4rem;
+  box-shadow: 5px 9px 20px 25px #FFFFFF2E;
+
+  color: white !important;
+}
+.custome-size{
+  max-width: 500px;
+}
+
+.customeBg-home{
+  background: #32325e99;
+  // border-radius: 0.4rem;
+  // box-shadow: 5px 9px 20px 25px #FFFFFF2E;
+
+  color: white !important;
+}
+Button{
+  background-color: transparent !important;
+
+}
+.bg-none{
+  background-color: none !important;
+  text-shadow: none;
+  border-color:transparent !important;
+  text-decoration: none;
+}
+.bg-none:hover{
+  text-decoration: none;
+  box-shadow: none;
+}
+button:focus , .btn:focus{
+  box-shadow: none;
+}
+
+.user-div:hover{
+ background-color: #32325e99;
+}
+.col-custome{
+  height: 75vh;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+
+  scrollbar-width:none;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+.info-text{
+  color:#fafafa75 !important;
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+.primary{
+  color:rgb(208, 218, 74);
+}
+.btn-emoji-rapper{
+  height: 40px;
+}
+.btn-emoji{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top:0;
+  padding-bottom: 0;
+
+ font-size: 1rem;
+ transition: 0.25s;
+ &:hover{
+  font-size: 1.5rem;
+ }
+
+}
+
+.emoji-chosen{
+  position: absolute;
+right: -9px;
+bottom: 0;
+background-color: #ffffff4a;
+font-size: 0.83rem;
+}
+.emoji-sender{
+  right: 107px;
+bottom: -2px;
+}
